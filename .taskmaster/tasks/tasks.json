@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "tags": {
+    "master": {
+      "name": "master",
+      "description": "Main task context",
+      "metadata": {
+        "createdAt": "2025-01-20T00:00:00Z"
+      },
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Test Gemini 3 CLI Integration",
+          "description": "Create a simple test to verify Gemini 3 Pro works with the CTO platform",
+          "status": "pending",
+          "priority": "high",
+          "dependencies": [],
+          "details": "Create a simple JavaScript file that prints 'Hello from Gemini 3!' to demonstrate the CLI is working correctly.",
+          "testStrategy": "Run the JavaScript file and verify output",
+          "subtasks": []
+        }
+      ]
+    }
+  },
+  "state": {
+    "currentTag": "master",
+    "lastSwitched": "2025-01-20T00:00:00Z"
+  }
+}
