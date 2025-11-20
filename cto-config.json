@@ -85,12 +85,12 @@
     },
     "rex": {
       "githubApp": "5DLabs-Rex",
-      "cli": "factory",
-      "model": "claude-sonnet-4-5-20250929",
+      "cli": "gemini",
+      "model": "gemini-3-pro-preview",
       "modelRotation": {
         "enabled": true,
         "models": [
-          "claude-sonnet-4-5-20250929",
+          "gemini-3-pro-preview",
           "gpt-4o",
           "claude-opus-4-1-20250805"
         ]
